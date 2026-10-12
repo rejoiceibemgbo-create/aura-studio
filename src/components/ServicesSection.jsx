@@ -59,7 +59,7 @@ export default function ServicesSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mx-auto text-center flex flex-col items-center mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-4">
             <Sparkles size={13} />
             <span>WHAT WE DO</span>
@@ -70,7 +70,7 @@ export default function ServicesSection() {
               purpose & elegance.
             </span>
           </h2>
-          <p className="text-lg text-zinc-400 leading-relaxed">
+          <p className="text-lg text-zinc-400 leading-relaxed max-w-2xl">
             We specialize in <span className="text-zinc-200 font-medium">Branding</span>, <span className="text-zinc-200 font-medium">UI/UX Design</span>, and <span className="text-zinc-200 font-medium">Web Design</span> — focusing on clean aesthetics, strong visuals, and storytelling through design.
           </p>
         </div>

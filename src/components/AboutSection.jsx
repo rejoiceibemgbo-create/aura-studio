@@ -20,18 +20,24 @@ export default function AboutSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          {/* Section Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-6">
-            <Sparkles size={13} />
-            <span>ABOUT US</span>
-          </div>
+          {/* Section Header */}
+          <div className="max-w-3xl mx-auto text-center flex flex-col items-center mb-12">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-4">
+              <Sparkles size={13} />
+              <span>ABOUT US</span>
+            </div>
 
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight mb-8">
-            Expressing identity through{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500">
-              modern, minimalist design.
-            </span>
-          </h2>
+            <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
+              Expressing identity through{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500">
+                modern, minimalist design.
+              </span>
+            </h2>
+
+            <p className="text-base sm:text-lg text-zinc-400 leading-relaxed max-w-2xl">
+              A London-based creative studio dedicated to clean aesthetics, strong visuals, and storytelling through design.
+            </p>
+          </div>
 
           {/* Core 2–3 Sentence About Copy as Specified in Client Brief */}
           <div className="p-8 sm:p-12 rounded-3xl bg-zinc-900/60 border border-zinc-800/80 backdrop-blur-sm shadow-2xl relative">
