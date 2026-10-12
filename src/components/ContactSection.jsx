@@ -33,15 +33,15 @@ export default function ContactSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mx-auto text-center flex flex-col items-center mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-400 mb-4">
             <MessageSquare size={13} />
             <span>CONTACT US</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
             Let's discuss your next{' project.'}
           </h2>
-          <p className="text-lg text-zinc-400 leading-relaxed">
+          <p className="text-lg text-zinc-400 leading-relaxed max-w-2xl">
             Ready to bring your ideas to life? Send us a message or reach out directly to Maya Daniels and the team.
           </p>
         </div>
