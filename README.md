@@ -1,16 +1,58 @@
-# React + Vite
+# Aura Studio — Modern Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A sleek, responsive, and minimalist landing page for **Aura Studio**, a London-based creative agency specializing in **Branding**, **UI/UX Design**, and **Web Design**.
 
-Currently, two official plugins are available:
+Built with Next.js 16 (App Router), React 19, and Tailwind CSS v4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section**: Branded identity with the tagline *"Bringing Ideas to Life"*, an animated text cycler, and an interactive in-hero section hub.
+- **About Us Section**: Concise 2–3 sentence overview of the studio's ethos, mission, and attribution to Creative Director Maya Daniels.
+- **Services Section**: Dedicated breakdown of the agency's 3 core offerings:
+  - Branding & Visual Identity
+  - UI/UX & Digital Product Design
+  - Modern Web Design & Development
+- **Contact Us Section**: Clean, simple inquiry form (Name, Email, Message) with instant confirmation and London HQ direct details (`hello@aurastudio.co`).
+- **Interactive JavaScript Features**:
+  - Smooth floating **Back to Top** button with scroll detection.
+  - Dynamic **animated text cycler** in the Hero tagline.
+- **Branded Favicon**: Custom vector gold monogram icon (`icon.svg`).
+- **Responsive & Accessible**: Optimized for mobile, tablet, and desktop viewing with smooth anchor navigation.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router & Turbopack)
+- **UI Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Linter**: [Oxlint](https://oxc.rs/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Run the Development Server
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### 3. Build for Production
+```bash
+npm run build
+```
+
+### 4. Run Linting
+```bash
+npm run lint
+```
